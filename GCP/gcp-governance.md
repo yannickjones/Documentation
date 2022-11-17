@@ -35,7 +35,7 @@ company-marketing-website-dev
 Each project must be assigned to a department folder. Please ask the requestor for the department the project belongs to.
 
 The following is the approved GCP Resource Hierarchy:
-<Insert pic of hierarchy>
+![GCP Hierarchy Example](/img/gcp-hierarchy.png)
 
 ## Tagging
 Each project must be tagged with the following key/value pairs:  
