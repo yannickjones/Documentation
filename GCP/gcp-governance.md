@@ -59,20 +59,20 @@ company-marketing-website-dev-vpc
 ```
 ## General Guidelines
 
-**Principle of Least Privilege**  
+### **Principle of Least Privilege**  
 Least privilege access controls restrict access rights for users, accounts, and processes to only those resources absolutely required to perform routine, legitimate activities.   
 For all projects, ensure you are following the principle of least privilege. Only grant users the access they need to complete their work.  
 
-**Connectivity to Other Projects or COMPANY Corporate Networks**  
+### **Connectivity to Other Projects or COMPANY Corporate Networks**  
 No VPCs should be peered to the <PRIMARY SHARED VPC> VPC or any other VPC without prior approval from COMPANY’s CloudOps team.
 
-**Use Identity Aware Proxy**  
+### **Use Identity Aware Proxy**  
 Utilize Identity Aware Proxy (IAP) instead of opening SSH or RDP to the internet. This allows tunneling of TCP connections in a more secure manner than opening SSH or RDP to the internet. More information can be found here.
 
-**No External IP Addresses Directly Attached to VM Instances**  
+### **No External IP Addresses Directly Attached to VM Instances**  
 All outbound traffic should use Cloud NAT and any service that requires inbound traffic for more than testing purposes should use a load balancer. There are a few exceptions to this due to legacy applications.
 
-**IAM Policy**  
+### **IAM Policy**  
 Only grant access to Google Cloud resources by granting access to COMPANY members. Members can be one of the following types:
 
 ●	Google/AD Groups (for GCP Console access)  
