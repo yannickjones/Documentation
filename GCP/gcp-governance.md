@@ -74,8 +74,8 @@ All outbound traffic should use Cloud NAT and any service that requires inbound 
 **IAM Policy**  
 Only grant access to Google Cloud resources by granting access to COMPANY members. Members can be one of the following types:
 
-●	Google Groups (for GCP Console access)  
-●	Service Account (Use service account only for machine to machine connectivity)  
+●	Google/AD Groups (for GCP Console access)  
+●	Service Account (Use service account only for machine to machine connectivity and CI/CD)  
 ●	Individual Google Accounts should be highly discouraged as much as possible  
 ●	Only assign access to COMPANY.com accounts, no contractor or outside email accounts. If a contractor needs an account they can reach out to the IT department  
 
