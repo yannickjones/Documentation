@@ -1,12 +1,12 @@
 Setup IAP Access
 
 Create Firewall Rule
-  Name: allow-ingress-from-iap
-  Direction of traffic: Ingress
-  Target: All instances in the network
-  Source filter: IP ranges
-  Source IP ranges: 35.235.240.0/20
-  Protocols and ports: Select TCP and enter 22,3389 to allow both RDP and SSH.
+ * Name: allow-ingress-from-iap
+ * Direction of traffic: Ingress
+ * Target: All instances in the network
+ * Source filter: IP ranges
+ * Source IP ranges: 35.235.240.0/20
+ * Protocols and ports: Select TCP and enter 22,3389 to allow both RDP and SSH.
 
 Grant the following access
   - In the main IAM page, https://console.cloud.google.com/iam-admin/iam?project=your_project grant the user the "Compute Viewer" and "Service Account User" roles.
