@@ -58,7 +58,8 @@ company-sales-mobileapp-stage-vm1
 company-marketing-website-dev-vpc
 ```
 ## General Guidelines
-### **Principle of Least Privilege**
+
+**Principle of Least Privilege**  
 Least privilege access controls restrict access rights for users, accounts, and processes to only those resources absolutely required to perform routine, legitimate activities.   
 For all projects, ensure you are following the principle of least privilege. Only grant users the access they need to complete their work.  
 
